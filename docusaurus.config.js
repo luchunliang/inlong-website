@@ -82,12 +82,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to: "/docs/next/introduction",
               },
               {
-                label: "1.13.0",
+                label: "2.3.0",
                 to: "/docs/introduction",
               },
               {
-                label: "1.12.0",
-                to: "/docs/1.12.0/introduction",
+                label: "2.2.0",
+                to:"/docs/2.2.0/introduction",
               },
               {
                 label: "All versions",
@@ -218,6 +218,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       prism: {
         theme: require('prism-react-renderer/themes/dracula'),
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['java','bash','docker','protobuf','sql','properties','yaml','typescript', 'ini', 'nginx'],
       },
       algolia: {
         appId: 'YUW9QEL53E',

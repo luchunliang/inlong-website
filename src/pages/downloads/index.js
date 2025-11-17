@@ -5,8 +5,8 @@ import Translate, { translate } from '@docusaurus/Translate';
 
 export default function() {
 
-    const version = "1.13.0";
-    const date = "July. 18, 2024";
+    const version = "2.3.0";
+    const date = "Nov. 11, 2025";
 
     return (
         <Layout title={translate({ message: 'Downloads' })}>
@@ -84,17 +84,17 @@ export default function() {
                                     </div>
                                     <div className={styles.buttonRow}>
                                         <div className={styles.buttonCard}>
-                                            <div className={styles.connectorDropdownOne}>
-                                                <span className={styles.connectorSpan}>v1.13:</span>
-                                                <a className={styles.connectorDropdownItem} href={`https://repository.apache.org/content/groups/public/org/apache/inlong/inlong-distribution/${version}/inlong-distribution-${version}-sort-connectors-flink-v1.13.tar.gz`}>BIN</a>
-                                                <a target="_blank" className={styles.connectorDropdownItem} href={`https://repository.apache.org/content/groups/public/org/apache/inlong/inlong-distribution/${version}/inlong-distribution-${version}-sort-connectors-flink-v1.13.tar.gz.asc`}>ASC</a>
-                                                <a target="_blank" className={styles.connectorDropdownItem} href={`https://repository.apache.org/content/groups/public/org/apache/inlong/inlong-distribution/${version}/inlong-distribution-${version}-sort-connectors-flink-v1.13.tar.gz.sha512`}>SHA512</a>
-                                            </div>
                                             <div className={styles.connectorDropdownTwo}>
                                                 <span className={styles.connectorSpan}>v1.15:</span>
                                                 <a className={styles.connectorDropdownItem} href={`https://repository.apache.org/content/groups/public/org/apache/inlong/inlong-distribution/${version}/inlong-distribution-${version}-sort-connectors-flink-v1.15.tar.gz`}>BIN</a>
                                                 <a target="_blank" className={styles.connectorDropdownItem} href={`https://repository.apache.org/content/groups/public/org/apache/inlong/inlong-distribution/${version}/inlong-distribution-${version}-sort-connectors-flink-v1.15.tar.gz.asc`}>ASC</a>
                                                 <a target="_blank" className={styles.connectorDropdownItem} href={`https://repository.apache.org/content/groups/public/org/apache/inlong/inlong-distribution/${version}/inlong-distribution-${version}-sort-connectors-flink-v1.15.tar.gz.sha512`}>SHA512</a>
+                                            </div>
+                                            <div className={styles.connectorDropdownTwo}>
+                                                <span className={styles.connectorSpan}>v1.18:</span>
+                                                <a className={styles.connectorDropdownItem} href={`https://repository.apache.org/content/groups/public/org/apache/inlong/inlong-distribution/${version}/inlong-distribution-${version}-sort-connectors-flink-v1.18.tar.gz`}>BIN</a>
+                                                <a target="_blank" className={styles.connectorDropdownItem} href={`https://repository.apache.org/content/groups/public/org/apache/inlong/inlong-distribution/${version}/inlong-distribution-${version}-sort-connectors-flink-v1.18.tar.gz.asc`}>ASC</a>
+                                                <a target="_blank" className={styles.connectorDropdownItem} href={`https://repository.apache.org/content/groups/public/org/apache/inlong/inlong-distribution/${version}/inlong-distribution-${version}-sort-connectors-flink-v1.18.tar.gz.sha512`}>SHA512</a>
                                             </div>
                                         </div>
                                     </div>
